@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+	padding: 0px;
+}
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+    
+  }
+  
+  li {
+    float: left;
+   
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+   
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  
+/* background image */
+
+.bg-img 
+{
+    background-image: url("2.jfif");
+    min-height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.text-img{
+    position: absolute;
+    background-color: white;
+    height: 50%;
+    top: 20%;
+    left: 50%;
+    right: 10px;
+    margin: 10px;
+    opacity: 0.8;
+}
+.text-img h2 {
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+}
+.text-img p{
+    line-height: 1.5;
+    padding: 20px;
+    text-justify: inter-word;
+    text-align: justify;
+    font-family: "Sofia", sans-serif;
+	letter-spacing: 1px;
+}
+.text-img button{
+    border: none;
+    color: white;
+    background-color: black;
+    padding: 15px 32px;
+    text-align: center;
+    margin: 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.wel-box{
+    display: flex;
+    height: auto;
+    width: 100%;
+}
+.wel-box img, h1 , h2 {
+    margin-left: 20%;
+}
+.wel-box > div{
+    padding: 60px;
+}
+.wel-box p{
+    text-align: justify;
+    margin-left: 20%;
+    font-family: "Sofia", sans-serif;
+	letter-spacing: 1px;
+    width: 60%;
+
+} 
+.head{
+    text-align: center;
+    font-size: 30px;
+}
+/* offer */
+.offer{
+    width: 100%;
+    height: 90%;
+    background-color: #334FFF;
+    padding-bottom: 60px;
+}
+.offer > h1 , p{
+    text-align: center;
+    margin: 0;
+    
+}
+.offer > h1{
+    padding: 20px;
+}
+.offer-fl{
+    display: flex;
+    height: auto;
+    width: 100%;
+  
+}
+.f2 > img, p{
+    margin-left: 40px;
+}
+.f2>p{
+   text-align: justify;
+    font-family: "Sofia", sans-serif;
+    width: 80%;   
+}
